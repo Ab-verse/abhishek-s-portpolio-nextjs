@@ -60,18 +60,35 @@ export default function Home() {
               experiences.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://twitter.com/abverse_?s=21&t=hiFHT2m3wgbhS1Jkw53EuA" target="_blank">
-                <AiFillTwitterCircle className=" hover:text-teal-900"  />
+              <a
+                href="https://twitter.com/abverse_?s=21&t=hiFHT2m3wgbhS1Jkw53EuA"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillTwitterCircle className=" hover:text-teal-900" />
               </a>
-              <a href="https://in.linkedin.com/in/abhishek-s-ckm" target="_blank">
+              <a
+                href="https://in.linkedin.com/in/abhishek-s-ckm"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <AiFillLinkedin className=" hover:text-teal-900" />
               </a>
-              <a href="https://github.com/Ab-verse" target="_blank">
+              <a
+                href="https://github.com/Ab-verse"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <AiFillGithub className=" hover:text-teal-900" />
               </a>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
-              <Image src={abhi} layout="fill" objectFit="cover" />
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-70 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
+              <Image
+                src={abhi}
+                layout="fill"
+                objectFit="cover"
+                alt="Profile Photo"
+              />
             </div>
           </div>
         </section>
@@ -103,11 +120,14 @@ export default function Home() {
                 <li className="py-1 font-bold text-teal-500 hover:text-teal-600 ">
                   Ascendion (2021 - Present){" "}
                 </li>
+
                 <li>
                   <p className=" font-bold">
                     Role: Blockchain Full Stack Developer
                   </p>
                 </li>
+              </ul>
+              <ul className=" list-disc">
                 <li>
                   Developed{" "}
                   <span className=" text-teal-500"> Circle NFT Badge</span>, a
@@ -137,13 +157,25 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={web4} width={100} height={100} />
+              <Image
+                src={web4}
+                width={100}
+                height={100}
+                alt="project-symbol-1"
+              />
 
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-700 hover:text-teal-900">
-                <a href="https://github.com/Ab-verse/raffle-dapp-hardhat-nextjs.git" target="_blank">Raffle DApp <BsFillArrowUpRightCircleFill className=" inline-block " /></a>
+                <a
+                  href="https://github.com/Ab-verse/raffle-dapp-hardhat-nextjs.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Raffle DApp{" "}
+                  <BsFillArrowUpRightCircleFill className=" inline-block " />
+                </a>
               </h3>
               <p className="py-2 mb-12">
-                "Raffle" is a decentralized application (DApp) using Chainlink
+              &quot;Raffle&quot; is a decentralized application (DApp) using Chainlink
                 VRF for fair and transparent random winner selection.
               </p>
               <h4 className="py-4 text-teal-600">Development Tools I Use</h4>
@@ -158,12 +190,20 @@ export default function Home() {
                 src={web2}
                 width={100}
                 height={100}
+                alt="project-symbol-2"
               />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-700 hover:text-teal-900">
-                <a href="https://github.com/Ab-verse/moraland-nft-dapp-hardhat.git" target="_blank">Moraland DApp <BsFillArrowUpRightCircleFill className=" inline-block" /></a>
+                <a
+                  href="https://github.com/Ab-verse/moraland-nft-dapp-hardhat.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Moraland DApp{" "}
+                  <BsFillArrowUpRightCircleFill className=" inline-block" />
+                </a>
               </h3>
               <p className="py-2">
-                "Moraland" is a decentralized application (DApp) that utilizes
+                &quot;Moraland&quot; is a decentralized application (DApp) that utilizes
                 blockchain technology to enable plot claiming and interactive
                 map management for a virtual world.
               </p>
@@ -179,12 +219,20 @@ export default function Home() {
                 src={web1}
                 width={100}
                 height={100}
+                alt="project-symbol-3"
               />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-700 hover:text-teal-900">
-                <a href="https://github.com/Ab-verse/crowd-funding-dapp-hardhat-reactjs.git" target="_blank">Crowd Funding DApp <BsFillArrowUpRightCircleFill className=" inline-block" /></a>
+                <a
+                  href="https://github.com/Ab-verse/crowd-funding-dapp-hardhat-reactjs.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Crowd Funding DApp{" "}
+                  <BsFillArrowUpRightCircleFill className=" inline-block" />
+                </a>
               </h3>
               <p className="py-2">
-                The "CrowdFunding" decentralized application (DApp) for
+                The &quot;CrowdFunding&quot; decentralized application (DApp) for
                 creating, donating to, and tracking multiple fundraising
                 campaigns with dynamic targets and deadlines.
               </p>
