@@ -101,12 +101,12 @@ export default function Home() {
               <span className="text-teal-500">blockchain</span> technology to
               create secure, transparent, and innovative solutions. From writing
               efficient <span className="text-teal-500">smart contracts</span>{" "}
-              to designing intuitive user interfaces, I'm dedicated to
+              to designing intuitive user interfaces, I&apos;m dedicated to
               delivering seamless experiences that push the boundaries of the
               decentralized web. Along the way, I have collaborated with
               talented individuals to create{" "}
               <span className="text-teal-500">Web3 products</span> for both
-              business and consumer use. Let's work together to shape the future
+              business and consumer use. Let&apos;s work together to shape the future
               of the decentralized ecosystem and bring transformative ideas to
               life.
             </p>
