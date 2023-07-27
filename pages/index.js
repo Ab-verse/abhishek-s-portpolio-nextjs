@@ -40,7 +40,9 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="https://drive.google.com/file/d/1p46xG4wfGPWpKeWSVIUOev-WAkCt0ESW/view?usp=drivesdk"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Resume
                 </a>
