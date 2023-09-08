@@ -40,7 +40,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1p46xG4wfGPWpKeWSVIUOev-WAkCt0ESW/view?usp=drivesdk"
+                  href="https://drive.google.com/file/d/1hXHQATtMRnimb3XR3NzJ9H7hNAi1FZFE/view?usp=drivesdk"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -108,9 +108,9 @@ export default function Home() {
               decentralized web. Along the way, I have collaborated with
               talented individuals to create{" "}
               <span className="text-teal-500">Web3 products</span> for both
-              business and consumer use. Let&apos;s work together to shape the future
-              of the decentralized ecosystem and bring transformative ideas to
-              life.
+              business and consumer use. Let&apos;s work together to shape the
+              future of the decentralized ecosystem and bring transformative
+              ideas to life.
             </p>
           </div>
         </section>
@@ -177,8 +177,8 @@ export default function Home() {
                 </a>
               </h3>
               <p className="py-2 mb-12">
-              &quot;Raffle&quot; is a decentralized application (DApp) using Chainlink
-                VRF for fair and transparent random winner selection.
+                &quot;Raffle&quot; is a decentralized application (DApp) using
+                Chainlink VRF for fair and transparent random winner selection.
               </p>
               <h4 className="py-4 text-teal-600">Development Tools I Use</h4>
               <p className="text-gray-800 py-1">Solidity</p>
@@ -205,9 +205,9 @@ export default function Home() {
                 </a>
               </h3>
               <p className="py-2">
-                &quot;Moraland&quot; is a decentralized application (DApp) that utilizes
-                blockchain technology to enable plot claiming and interactive
-                map management for a virtual world.
+                &quot;Moraland&quot; is a decentralized application (DApp) that
+                utilizes blockchain technology to enable plot claiming and
+                interactive map management for a virtual world.
               </p>
               <h4 className="py-4 text-teal-600">Development Tools I Use</h4>
               <p className="text-gray-800 py-1">Solidity, YUL</p>
@@ -234,8 +234,8 @@ export default function Home() {
                 </a>
               </h3>
               <p className="py-2">
-                The &quot;CrowdFunding&quot; decentralized application (DApp) for
-                creating, donating to, and tracking multiple fundraising
+                The &quot;CrowdFunding&quot; decentralized application (DApp)
+                for creating, donating to, and tracking multiple fundraising
                 campaigns with dynamic targets and deadlines.
               </p>
               <h4 className="py-4 text-teal-600">Development Tools I Use</h4>
