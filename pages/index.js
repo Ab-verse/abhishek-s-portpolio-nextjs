@@ -168,11 +168,21 @@ export default function Home() {
 
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-700 hover:text-teal-900">
                 <a
-                  href="https://github.com/Ab-verse/raffle-dapp-hardhat-nextjs.git"
+                  href="https://raffle-dapp-hardhat-nextjs.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Raffle DApp{" "}
+                  <BsFillArrowUpRightCircleFill className=" inline-block " />
+                </a>
+              </h3>
+              <h3 className="text-lg font-medium pt-2 pb-2   hover:text-teal-900">
+                <a
+                  href="https://github.com/Ab-verse/raffle-dapp-hardhat-nextjs.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Code{" "}
                   <BsFillArrowUpRightCircleFill className=" inline-block " />
                 </a>
               </h3>
@@ -195,12 +205,15 @@ export default function Home() {
                 alt="project-symbol-2"
               />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-700 hover:text-teal-900">
+                Moraland DApp{" "}
+              </h3>
+              <h3 className="text-lg font-medium pt-2 pb-2   hover:text-teal-900">
                 <a
                   href="https://github.com/Ab-verse/moraland-nft-dapp-hardhat.git"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Moraland DApp{" "}
+                  Code{" "}
                   <BsFillArrowUpRightCircleFill className=" inline-block" />
                 </a>
               </h3>
@@ -212,8 +225,7 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Development Tools I Use</h4>
               <p className="text-gray-800 py-1">Solidity, YUL</p>
               <p className="text-gray-800 py-1">OpenZeppelin</p>
-              <p className="text-gray-800 py-1">HTML</p>
-              <p className="text-gray-800 py-1">JavaScript</p>
+              <p className="text-gray-800 py-1">Hardhat</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image
@@ -225,11 +237,21 @@ export default function Home() {
               />
               <h3 className="text-lg font-medium pt-8 pb-2  text-teal-700 hover:text-teal-900">
                 <a
-                  href="https://github.com/Ab-verse/crowd-funding-dapp-hardhat-reactjs.git"
+                  href="https://crowd-funding-dapp-hardhat-reactjs.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Crowd Funding DApp{" "}
+                  <BsFillArrowUpRightCircleFill className=" inline-block" />
+                </a>
+              </h3>
+              <h3 className="text-lg font-medium pt-2 pb-2   hover:text-teal-900">
+                <a
+                  href="https://github.com/Ab-verse/crowd-funding-dapp-hardhat-reactjs.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Code{" "}
                   <BsFillArrowUpRightCircleFill className=" inline-block" />
                 </a>
               </h3>
